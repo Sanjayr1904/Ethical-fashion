@@ -1,0 +1,153 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+
+}
+body{
+font-family: 'Outfit', sans-serif;
+}
+.logo p{
+    position: absolute;
+    font-family:'Oleo Script', cursive;
+    font-weight:bold;
+    font-size:20px;
+    top:90px ;
+    left:130px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 50px;
+}
+nav ul li a{
+    color: #000;
+    font-size: 24px;
+    font-family: Outfit;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    scale: (1.2);
+}
+
+.hero-text h1{
+    position: absolute;
+    font-family:'Oleo Script', cursive;
+    font-weight:bold;
+    font-size:40px;
+    top:200px ;
+    left:60px;
+}
+
+.subtitle{
+    position: absolute;
+    font-family: 'Katibeh', cursive;
+    font-size:30px;
+    line-height:50px;
+    font-weight:semibold;
+    top:430px ;
+    left:60px;
+}
+.hero-text button{
+    position: absolute;
+    color: #000;
+    background-color: rgba(11, 223, 145, 0.1);
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    top: 680px;
+    left: 60px;
+}
+.footer{
+    position: absolute;
+    top: 980px;
+    left: 60px;
+    font-family:'Oleo Script', cursive;
+    font-weight:bold;
+    font-size:20px;
+
+}
+.button-msg button {
+    position: absolute;
+    top: 1000px;
+    left:1200px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(161, 160, 158);
+
+}
+.button-msg  button p {
+    position: absolute;
+    top:8px;
+    left:30px;
+    font-size: medium;
+    background-color: rgb(161, 160, 158);
+
+}
+.text h3{
+    position:absolute;
+    top:1005px;
+    left: 660px;
+    color: #000;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+.text h4{
+    position:absolute;
+    top:1040px;
+    left: 620px;
+    color: #000;
+font-size: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.92px;
+text-transform: capitalize;
+}
+.hero-image{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    z-index: inherit;
+}
+.social-icons{
+    position: absolute;
+    top: 1020px;
+    left: 60px;
+}
+.social-icons a{
+    margin: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 400ms;
+
+}
+.social-icons a:hover{
+    transform: scale(1.2);
+}
